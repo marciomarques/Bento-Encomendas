@@ -11,6 +11,7 @@
     <!-- Bootstrap -->
     <link href="assets/bootstrap.css" rel="stylesheet" media="screen">
     <link href="assets/one-page-ui.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDleKhUhwIqJmchv6VNkulcgKOQ7DWJDok&sensor=false"></script>
   </head>
   <body>
     <div class="navbar navbar-fixed-top">
@@ -31,8 +32,8 @@
           </div>
         </div>
       </div>
-    </div>  
-    </header>  
+    </div>
+    </header>
     <section class="services">
       <div class="container">
         <h2>Serviços</h2>
@@ -40,10 +41,10 @@
       		<div class="span8">
           <p>Possibilitamos que você planeje seus negócios com muito mais tranquilidade, segurança, economia e agilidade, através do serviço que é a nossa especialidade: a coleta e a entrega de mercadorias com extrema rapidez.</p>
           <p>Localizada próxima às principais vias de acesso da Grande Porto Alegre, nossa central possibilita agilidade nas operações e nos procedimentos de embarque e recebimento de cargas e encomendas. Assim, com o apoio de nossas filiais no interior do estado, podemos fazer com que sua carga chegue na sua mão no menor tempo.</p>
-          <p>Aos clientes com necessidades especiais de transporte e logística, disponibilizamos um serviço único e personalizado, adaptado exclusivamente a estas necessidades. Para atingir o padrão de qualidade exigido por estes clientes, adequamos horários e tipos de veículo, que podem variar entre baús, sider ou carroceria aberta.</p>	
-      		</div><!-- Fim span -->	
+          <p>Aos clientes com necessidades especiais de transporte e logística, disponibilizamos um serviço único e personalizado, adaptado exclusivamente a estas necessidades. Para atingir o padrão de qualidade exigido por estes clientes, adequamos horários e tipos de veículo, que podem variar entre baús, sider ou carroceria aberta.</p>
+      		</div><!-- Fim span -->
       		<div class="span4 rates">
-      		</div>		
+      		</div>
       	</div><!-- Fim row -->
       </div><!-- Fim container -->
     </section>
@@ -73,30 +74,16 @@
             <p><a href="mailto:bento@bentoencomendas.com.br">bento@bentoencomendas.com.br</a></p>
           </div>
         </div>
-      </div>  
+      </div>
       <div id="maps">
       </div>
     </section>
-    
-        
+
+
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="assets/bootstrap.min.js"></script>
 
-    <script type="text/javascript"
-      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDleKhUhwIqJmchv6VNkulcgKOQ7DWJDok&sensor=false">
-    </script>
-    <script type="text/javascript">
-      function initialize() {
-        var mapOptions = {
-          center: new google.maps.LatLng(-34.397, 150.644),
-          zoom: 4,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("maps"),
-            mapOptions);
-      }
-      initialize();
-    </script>
-    
+    <script type="text/javascript" src="assets/mapa.js"></script>
+
   </body>
 </html>

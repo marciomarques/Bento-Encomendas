@@ -88,6 +88,10 @@ section h2{
   height: 300px; 
 }
 
+#maps img{
+  max-width: none;
+}
+
 /*
 li{
 	list-style-image: url(images/list.png);
