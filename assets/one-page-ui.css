@@ -18,6 +18,10 @@ body{
   margin-bottom: 0px;
 }
 
+.nav{
+  padding-top: 20px;
+}
+
 .header{
 	background: url(bg-banner.jpg) center center;
   background-attachment: fixed;
@@ -35,7 +39,7 @@ body{
 
 .header p{
   font-style: normal;
-  font-weight: 200; 
+  font-weight: 200;
 	font-size: 20px;
 	color: #ccc;
 	font-weight: 100;
@@ -105,11 +109,15 @@ section h2{
 #maps{
   width: 100%;
   height: 500px;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 #maps img{
   max-width: none;
+}
+.contact{
+  min-height: 300px;
+  background-color: rgba(135,40,47,0.77);
 }
 
 .convert{
